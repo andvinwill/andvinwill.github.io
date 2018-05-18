@@ -2,18 +2,32 @@
 	padding: 0;
 	margin: 0;
 }
+h1 {
+	text-size: 60px;
+}
 
+slogan {
+	font-style: italic;
+}
 body {
 	font-family: Ink Free;
 	font-weight: bold;
 	font-size: 20px;
 	color: #5c90bb;
 	line-height: 1.5;
-	background-image: url(https://raw.githubusercontent.com/andvinwill/andvinwill.github.io/master/unit_3/images/andrew-stutesman-643239-unsplash.jpg);
+	background-image: url(https://raw.githubusercontent.com/andvinwill/andvinwill.github.io/master/unit_3/images/lena-bell-68534-unsplash.jpg);
+	background-size: 100%
 }
 header {
 	padding: 20px;
 }
 img {
 	float: right; width: 30%;
+main {
+	padding: 40px
 }
+ul {
+	padding-left: 20px; text-align: center;
+
+}
+
