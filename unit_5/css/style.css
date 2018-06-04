@@ -14,8 +14,14 @@ body {
 	color: #5c90bb;
 	line-height: 1.5;
 }
+
+nav {
+	background-color: #E8C66A
+}
 	
 header {
+	background-color: #FFED74;
+	border: 1px black solid;
 	padding: 20px;
 }
 
@@ -34,6 +40,18 @@ header {
  .image4 { 
 	width: 200px;
  }
+
+section {
+	background-color: #FFE2B8
+}
+
+div {
+	background-color: #FFE2B8
+}
+
+footer {
+	background-color: #FF957E;
+}
 
 main {
 	padding: 40px;
