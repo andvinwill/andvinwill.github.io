@@ -9,7 +9,6 @@ body {
 	padding: 0;
 	font-family: 'Tajawal', sans-serif;
 	font-size: 20px;
-	text-align: center;
 	line-height: 1.5;
 }
 
@@ -18,8 +17,10 @@ a {
 	text-decoration: none;
 }
 
+/*LoVe HAte*/
+
 nav {
-	background: transparent;
+	background: #E88064;
 	overflow: hidden;
 	margin:0;
 	padding: 0;
@@ -27,7 +28,8 @@ nav {
 	text-align: center;
 	font-size: large;
 	font-weight: 100;
-	letter-spacing: 2px;		
+	letter-spacing: 2px;
+	padding: 20px;		
 }
 
 nav a {
@@ -38,15 +40,30 @@ nav a {
 } 
 
 nav a:hover {
-	background-color: #E88064;
+	background-color: #7BCAD0;
 }
 
 header {
-	background-image: url(https://raw.githubusercontent.com/andvinwill/andvinwill.github.io/master/redo_pre_final_project/images/Andrea_Williams_024_greenjacket.jpg);
+	/*background-image: url("https://raw.githubusercontent.com/andvinwill/andvinwill.github.io/master/redo_pre_final_project/images/Andrea_Williams_024_greenjacket.jpg");*/
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center center;
-	max-height: 60%;	
+	max-height: 60%;
+	/*padding: 200px 0 0 0;*/	
+}
+
+.hero-image {
+    /* The image used */
+    background-image: url("https://raw.githubusercontent.com/andvinwill/andvinwill.github.io/master/redo_pre_final_project/images/Andrea_Williams_024_greenjacket.jpg");
+
+    /* Set a specific height */
+    height: 50%;
+
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
 }
 
 h1 {
@@ -54,6 +71,7 @@ h1 {
 	text-size: 200px;
 	color: #013950;
 	display: block;
+	text-align: center;
 }
 
 h2 {
@@ -61,6 +79,36 @@ h2 {
 	color: #013950;
 	text-align: center;
 	display: block;
+}
+
+
+h2 + hr {
+	border-style: solid;
+	border-color: #013950;
+	border-width: 5px;
+	/*margin: 1em 20em 1em 20em;*/
+}
+
+img {
+ width: 100%;
+}
+
+main {
+	background-color: #F1E9E4;
+    color:#3C3C3C;
+    padding:50px 0;
+}
+
+section {
+	padding:50px 0;
+	margin-bottom: 50px;	
+}
+
+#top h2 {
+	font-size: 50px;
+	text-shadow: 0px 0px 3px;
+	padding: 0;
+	color: #E88064;
 }
 
 #banner {
@@ -72,27 +120,66 @@ h2 {
 #banner h1 {
 	font-size: xx-large;
 	text-shadow: 0px 0px 3px;
+	padding: 100px 0 0 0;
+	color: #E88064;
 }
 
 #banner h2 {
 	font-size: large;
 	text-shadow: 0px 0px 3px;
+	padding: 0;
+	color: #E88064;
 }
 
 #social {
-	font-size: large;
+	font-size: x-large;
+	color: #ffffff;
 }
 
 #social a {
 	padding: 3px 20px;
-	color: white;
+	color: #E88064
+}
+
+#divider {
+	border-style: solid;
+	border-color: #013950;
+	border-width: 5px;
+	margin: 1em 20em 1em 20em;
+	/*margin-top: 15px;
+	margin-bottom: 25px;
+	margin-left: 100px;
+	margin-right: 100px;*/
 }
 
 .clearfix:after {
-	display: block;
-	content: "";
-	clear: both;
+	visibility: hidden;
 	height: 0;
 	font-size: 0;
-	visibility: hidden;
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.wrapper{
+	background-color: purple;
+	width: 90%
+	margin: auto;
+}
+
+.resume {
+	width:22%;
+    margin:1.5%;
+    float: right;
+	background-color: orange;
+}
+
+.resume img {
+	max-width: 334px;
+    display: block;
+    margin: auto;
+}
+
+footer {
+	background-color: #7BCAD0;
 }
