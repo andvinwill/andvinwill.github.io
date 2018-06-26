@@ -13,8 +13,10 @@ body {
 }
 
 a {
-	color: #013950;
+	color: #577BBD;
+	background-color: transparent;
 	text-decoration: none;
+	font-weight: bolder;
 }
 
 /*LoVe HAte*/
@@ -23,13 +25,13 @@ nav {
 	background: #E88064;
 	overflow: hidden;
 	margin:0;
-	padding: 0;
+	/*padding: 0;*/
 	list-style: none;
 	text-align: center;
 	font-size: large;
 	font-weight: 100;
 	letter-spacing: 2px;
-	padding: 20px;		
+	padding: 10px;		
 }
 
 nav a {
@@ -37,6 +39,8 @@ nav a {
 	display: inline-block;
 	padding: 20px 5px;
 	text-decoration: none;
+	margin-right: 80px;
+	color: #013950;
 } 
 
 nav a:hover {
@@ -44,7 +48,6 @@ nav a:hover {
 }
 
 header {
-	/*background-image: url("https://raw.githubusercontent.com/andvinwill/andvinwill.github.io/master/redo_pre_final_project/images/Andrea_Williams_024_greenjacket.jpg");*/
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: 100px 80px;
@@ -53,14 +56,13 @@ header {
 }
 
 .hero-image {
-    /* The image used */
     background-image: url(../images/Andrea_Williams_024_greenjacket.jpg);
 
     /* Set a specific height */
-    height: 50%;
+    height: 418%;
 
     /* Position and center the image to scale nicely on all screens */
-    background-position: center;
+    background-position: 0 -181px;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
@@ -68,10 +70,11 @@ header {
 
 h1 {
 	font-family: 'Yatra One', cursive; 
-	text-size: 200px;
+	font-size: 50px;
 	color: #013950;
 	display: block;
 	text-align: center;
+	line-height: 1;
 }
 
 h2 {
@@ -86,7 +89,12 @@ h2 + hr {
 	border-style: solid;
 	border-color: #013950;
 	border-width: 5px;
+	margin-bottom: 5%;
 	/*margin: 1em 20em 1em 20em;*/
+}
+
+.about_andrea {
+	padding-top: 2%;
 }
 
 img {
@@ -100,36 +108,68 @@ main {
 }
 
 section {
-	padding:50px 0;
-	margin-bottom: 50px;	
+	padding:0 0;
+	margin-bottom: 25px;	
 }
 
-#top h2 {
+label {
+	width: 100%;
+	padding: 20px 5px;
+	text-decoration: none;
+	margin-right: 80px;
+	color: #013950;
+	display: none;
+}
+
+label {
+	background: #E88064;
+	overflow: hidden;
+	margin:0;
+	/*padding: 0;*/
+	list-style: none;
+	text-align: center;
+	font-size: large;
+	font-weight: 100;
+	letter-spacing: 2px;
+	padding: 10px;
+}
+
+.top_title {
+	font-family: 'Yatra One', cursive; 
 	font-size: 50px;
-	text-shadow: 0px 0px 3px;
-	padding: 0;
-	color: #E88064;
+	color: #013950;
+	display: block;
+	text-align: center;
+	line-height: 1;
+	padding-top: 2%;
+}
+
+.top_description {
+	font-family: 'Tajawal', sans-serif;
+	color: #013950;
+	text-align: center;
+	display: block;
 }
 
 #banner {
 	color: white;
 	text-align: center;
-	height: 45vh;	
+	height: 530px;	
 }
 
-#banner h1 {
+/*#banner h1 {
 	font-size: xx-large;
 	text-shadow: 0px 0px 3px;
 	padding: 100px 0 0 0;
 	color: #E88064;
-}
+}*/
 
-#banner h2 {
+/*#banner h2 {
 	font-size: large;
 	text-shadow: 0px 0px 3px;
 	padding: 0;
 	color: #E88064;
-}
+}*/
 
 #social {
 	font-size: x-large;
@@ -162,24 +202,139 @@ section {
 }
 
 .wrapper{
-	background-color: purple;
-	width: 90%
+	/*background-color: purple;*/
+	width: 90%;
 	margin: auto;
+}
+
+.res_para {
+	font-size: 18px;
 }
 
 .resume {
 	width:22%;
-    margin:1.5%;
-    float: right;
-	background-color: orange;
+	margin:1.5%;
+	float: left;
+	/*background-color: orange;*/
 }
 
 .resume img {
+	width: 100%;
 	max-width: 334px;
-    display: block;
-    margin: auto;
+	display: block;
+	margin: auto;
+}
+
+.body_para {
+	width: 70%;
+	margin: 0 auto;
+	text-align: justify;
+}
+
+#toggle {
+	display: none;
 }
 
 footer {
 	background-color: #7BCAD0;
+}
+
+@media screen and (max-width: 1285px){
+	.resume {
+		width:44%;
+		/*background-color: orange;*/
+	}
+}
+
+@media screen and (max-width: 891px){
+	.resume {
+		float: none;
+		width: 100%
+		/*margin: auto;*/
+		/*background-color: orange;*/
+	}
+}
+
+@media screen and (max-width: 852px){
+	#divider {
+		margin: 1em 10em 1em 10em;
+	}
+}
+
+@media screen and (max-width: 434px){
+	#divider {
+		margin: 1em 5em 1em 5em;
+	}
+}
+
+@media screen and (max-width: 1426px){
+	.hero-image {
+	    background-image: url(../images/Andrea_Williams_024_greenjacket.jpg);
+	    height: 418%;
+	    background-position: 0 -90px;
+	    background-repeat: no-repeat;
+	    background-size: cover;
+	    position: relative;
+	}
+}
+
+@media screen and (max-width: 1285px){
+	.hero-image {
+	    background-image: url(../images/Andrea_Williams_024_greenjacket.jpg);
+	    height: 418%;
+	    background-position: 0 -45px;
+	    background-repeat: no-repeat;
+	    background-size: cover;
+	    position: relative;
+	}
+}
+
+@media screen and (max-width: 1285px){
+	.hero-image {
+	    background-image: url(../images/Andrea_Williams_024_greenjacket.jpg);
+	    height: 418%;
+	    background-position: center;
+	    background-repeat: no-repeat;
+	    background-size: cover;
+	    position: relative;
+	}
+}	
+
+@media screen and (max-width: 624px){
+	.top_title {
+		font-size: 30px;
+		line-height: 1;
+	}
+}
+
+@media screen and (max-width: 625px){
+	.top_description {
+		font-size: 18px;
+		line-height: 1.5;
+	}
+}
+
+@media screen and (max-width: 941px){
+	nav a {
+		padding: 0px 0px;		
+	}
+}
+
+@media screen and (max-width: 908px){
+	nav {
+		display: none;
+	}
+	nav a {
+		display: block;
+		margin: auto;
+		padding: 10px;
+		/*padding: 15px 2px;*/		
+	}
+	label{
+		display: block;
+	}
+
+#toggle:checked + nav {
+	display: block;
+	}
 }
