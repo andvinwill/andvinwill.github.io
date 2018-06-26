@@ -41,23 +41,6 @@ nav a:hover {
 	background-color: #013950;
 }
 
-.column1 {
-	float: left;
-}
-
-.left, .right {
-	width: 25%;
-}
-
-.middle {
-	width: 50%;
-}
-
-.andrea {
-	margin: 0 0 0 200px;
-	width: 150px
-}
-
 h2 {
 	color: #ffffff;
 	background-color: #E88064;
@@ -91,7 +74,7 @@ main {
 	background-color: #7bcad0;
 }
 
-article {
+div {
 	padding: 20px 0;
 }
 
