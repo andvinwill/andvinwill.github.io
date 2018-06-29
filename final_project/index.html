@@ -4,7 +4,7 @@
 		<meta charset="utf-8">
 		<meta name="viewpoint" content="width=device-width, initial-scale=1">
 		<title> Andrea V Williams</title>
-
+		<link rel="icon" href="https://raw.githubusercontent.com/andvinwill/andvinwill.github.io/master/final_project/images/favicon_32x32.png" type="image/png" sizes="32x32">
 		<style>
 			@import url('https://fonts.googleapis.com/css?family=Tajawal|Yatra+One');
 		</style>
@@ -20,11 +20,11 @@
     		<label for="toggle">MENU</label>
     		<input type="checkbox" id="toggle">
     		<nav>
-				<a href="#">ABOUT</a>
-				<a href="#">SKILLS</a>
-				<a href="#">EXPERIENCE</a>
-				<a href="#">EDUCATION</a>
-				<a href="#">CONTACT</a>
+				<a href="#AA">ABOUT</a>
+				<a href="#AS">SKILLS</a>
+				<a href="#AEX">EXPERIENCE</a>
+				<a href="#AED">EDUCATION</a>
+				<a href="#AC">CONTACT</a>
 			</nav>
 
 			<div class="hero-image">
@@ -39,9 +39,9 @@
 
 	<section id="about-andrea">
 		<div id="about">
-			<h2 class="about_andrea">ABOUT</h2>
+			<h2 id="AA" class="about_andrea">ABOUT</h2>
 			<hr id="divider">
-			<p class="body_para">Hi, I'm Andrea a marketing professional with a passion for philanthropy and travel. I enjoy learning all the ends and outs of the marketing world and the ever changing algorithms used to depict data. When I'm not analyzing marketing data I'm out in the community raising colorectal cancer awareness. I also love trips about the world and soaking my feet on a white sandy beach!</p>
+			<p class="body_para">Hi, I'm Andrea a marketing professional with a passion for philanthropy and travel. I enjoy learning all the ends and outs of the marketing world and the ever changing algorithms used to depict data. When I'm not analyzing marketing data I'm out in the community raising Colorectal Cancer Awareness. I also love trips around the world and soaking my feet on a white sandy beach!</p>
 		</div>
 	</section>
 
@@ -54,23 +54,23 @@
 	<div class="wrapper clearfix">		
 		<section class="resume">		
 			<img src="https://raw.githubusercontent.com/andvinwill/andvinwill.github.io/master/redo_pre_final_project/images/skills_350x250.png" alt="data graphs">
-			<h2>SKILLS</h2>
+			<h2 id="AS">SKILLS</h2>
 			<hr>
-			<p class="res_para">Over the years I've picked up quite a few skills that include analytics, fundraising, project management, social media marketing and my newest gem HTML and CSS.</p>
+			<p class="res_para">Over the years I've picked up quite a few skills that include analytics, fundraising, project management, social media marketing and my newest gems HTML and CSS.</p>
 		</section>
 
 		<section class="resume">
 			<img src="https://raw.githubusercontent.com/andvinwill/andvinwill.github.io/master/redo_pre_final_project/images/experience_350x250.png" alt="dual computer monitors" title="experience">
-			<h2>EXPERIENCE</h2>
+			<h2 id="AEX">EXPERIENCE</h2>
 			<hr>
 			<p class="res_para">I'm currently a Marketing Manager with a leading cooperative purchasing alliance, U.S. Communities. Prior, I worked for Liberty Mutual Insurance as a Lead Service Specialist managing a team of sales and service representives and leading root cause analysis.</p>
 		</section>
 
 		<section class="resume">
 			<img src="https://raw.githubusercontent.com/andvinwill/andvinwill.github.io/master/redo_pre_final_project/images/graduate_350x250.png" alt="cap and gown" title="education">		
-			<h2>EDUCATION</h2>
+			<h2 id="AED">EDUCATION</h2>
 			<hr>
-			<p class="res_para">Graduted with an MBA from Nova Southeastern University in 2011 after obtaining a Bachelor of Science degree in Business Adminstration from Oglethrope University in 2008.</p>	
+			<p class="res_para">I graduted with an MBA from Nova Southeastern University in 2011 after obtaining a Bachelor of Science degree in Business Adminstration from Oglethrope University in 2008.</p>	
 		</section>
 		
 		<section class="resume">
@@ -83,15 +83,43 @@
 </main>    
     
     <section id="objective">
-		<h2>CONTACT ME</h2>
+		<h2 id="AC">CONTACT ME</h2>
 		<hr id="divider">
-		<p class="body_para">I'm always open to new opportunities and experiences whether it be regarding a professional connection, an opportunity to get involved in our non-profit or discuss travel adventures.</p>		
+		<p class="body_para">I'm always open to new opportunities and experiences whether it's regarding a professional connection, an opportunity to get involved or donate to our non-profit or discuss travel adventures.</p>
 	</section>
+
+	<div class="container">
+		<form action="action_page.php">
+
+			<!-- <label for="fname">Name</label>
+			<input type="text" id="fname" name="fullname" placeholder="Your name.."> -->
+
+			<label for="email">Email</label>
+			<input type="text" name="email" placeholder="Email">
+
+			<label for="subject">Subject</label>
+			<textarea id="subject" name="subject" placeholder="Let's chat" style="height: 200px"></textarea>
+
+			<input type="submit" value="SUBMIT">
+		
+		</form>
+	</div>
+
     
     <footer>	
-		<p>Contact 404.615.4540</p>
-		<p>Email andvinwill@gmail.com</p>
-		<p>&copy; 2018 Andrea V Williams, MBA</p>
+		<div class="outer_social_icons">
+			<section class="social_icons">
+				<!-- Add font awesome icons -->
+				<a href="mailto:andvinwill@gmail.com" class="fa fa-envelope" target="_blank"></a>
+				<a href="https://www.linkedin.com/in/andrea-v-williams-mba-79aa1b23/" class="fa fa-linkedin" target="_blank"></a>
+				<a href="https://www.facebook.com/BeastRob/" class="fa fa-facebook" target="_blank"></a>
+				<a href="https://twitter.com/beastrobinc" class="fa fa-twitter" target="_blank"></a>
+				<a href="https://www.instagram.com/beastrobinc/" class="fa fa-instagram" target="_blank"></a>			
+			</section>
+		<div>
+			<p class="text_align_right">&copy; 2018 Andrea V Williams, MBA</p>
+		</div>
+		</div>
 	</footer>
 	</div>
 </body>
